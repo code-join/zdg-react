@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 const Fotos = () => {
 	return (
 		<div className="fotos">
-			<Link to="/fotos" id="link-fotos">
+			<Link to="/zdg-react/fotos" id="link-fotos">
 				<p>Fotos</p>
 			</Link>
 		</div>

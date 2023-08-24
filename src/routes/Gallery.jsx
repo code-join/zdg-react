@@ -16,15 +16,15 @@ const Gallery = () => {
 		<div id="container-gallery">
 			<div id="gallery">
 				<Carousel controls={true} slide={false} interval={null}>
-						{gallery.map((foto) => (
-							<Carousel.Item key={foto.id}>
-								<img src={foto.src} alt={foto.alt} />
-							</Carousel.Item>
-						))}
-					</Carousel>
+					{gallery.map((foto) => (
+						<Carousel.Item key={foto.id}>
+							<img src={foto.src} alt={foto.alt} />
+						</Carousel.Item>
+					))}
+				</Carousel>
 			</div>
 			<div id="div-voltar">
-				<Link to="/" id="link-voltar">
+				<Link to="/zdg-react" id="link-voltar">
 					<p>Voltar</p>
 				</Link>
 			</div>

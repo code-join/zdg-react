@@ -21,11 +21,11 @@ const router = createBrowserRouter([
 				path: '/zdg-react/',
 				element: <Home />,
 			},
-			{
-				path: '/zdg-react/fotos',
-				element: <Gallery />,
-			},
 		],
+	},
+	{
+		path: '/zdg-react/fotos',
+		element: <Gallery />,
 	},
 ]);
 
