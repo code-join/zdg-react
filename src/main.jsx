@@ -13,12 +13,12 @@ import Gallery from './routes/Gallery.jsx';
 
 const router = createBrowserRouter([
 	{
-		path: '/',
+		path: '/zdg-react/',
 		element: <Home />,
 		errorElement: <Error404 />,
 	},
 	{
-		path: '/fotos',
+		path: 'zdg-react/fotos',
 		element: <Gallery />,
 	},
 ]);
