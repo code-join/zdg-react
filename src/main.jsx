@@ -15,10 +15,9 @@ const router = createBrowserRouter([
 	{
 		path: '/zdg-react/',
 		element: <Home />,
-		errorElement: <Error404 />,
 	},
 	{
-		path: 'zdg-react/fotos',
+		path: '/zdg-react/fotos',
 		element: <Gallery />,
 	},
 ]);
